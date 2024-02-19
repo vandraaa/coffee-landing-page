@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hanado</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+
+<style>
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+</style>
+
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary position-relative">
+      <div class="container py-2" style="z-index: 2;">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/Images/logo.png" alt="Hanado" height="48px">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0 fw-bold">
+            <li class="nav-item">
+              <a class="nav-link active text-warning" aria-current="page" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#special">Our Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#delivery">Delivery</a>
+            </li>
+          </ul>
+          <form class="d-flex align-items-center position-relative" role="search">
+            <input class="form-control me-2 rounded-pill ps-5" type="search" placeholder="Cappucino"
+              aria-label="Cappucino">
+            <i class="ai-search fs-4 position-absolute start-0 ps-2"></i>
+            <i class="ai-cart fs-4"></i>
+          </form>
+        </div>
+      </div>
+      <img src="assets/Images/bg-hero.png" alt="" class="position-absolute top-0 end-0"
+        style="height: 300px; z-index: 1;">
+    </nav>
+  </header>
+  <!-- End Navbar -->
+
+  <!-- Opening -->
+  <section style="height: 85vh;" class="bg-body-tertiary">
+    <div class="container p-lg-5">
+      <div class="d-flex justify-content-lg-between align-items-center">
+        <div class="w-50">
+          <h1 class="fw-semibold" style="font-size: 3rem;">Enjoy your <span class="text-warning">coffee</span> before
+            your activity</h1>
+          <p class="pt-3">Boost your productivity and build your mood with a glass of coffee in the morning</p>
+          <div class="d-flex align-items-center gap-lg-5 pt-3">
+            <button class="btn btn-success rounded-pill px-lg-4 py-lg-2">
+              Order now <i
+                class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                style="width: 25px; height: 25px;"></i>
+            </button>
+            <a href="#" class="text-decoration-none text-warning">More menu</a>
+          </div>
+        </div>
+        <div class="bg-dark rounded-pill p-5 position-relative" style="z-index: 2;">
+          <img src="assets/Images/coffe-glass.png" style="height: 250px; width: 250px;">
+          <p class="btn btn-light position-absolute px-4 rounded-pill shadow start-0 top-0 fw-bold">Cappucino</p>
+          <p class="btn btn-light position-absolute px-4 rounded-pill shadow fw-bold"><span class="d-flex gap-1">
+              4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px;"></i></p>
+          </span>
+          <p class="btn btn-light position-absolute px-4 rounded-pill shadow bottom-0 start-0 fw-bold">18k</p>
+        </div>
+      </div>
+    </div>
+    <img src="assets/Images/bg-hero-2.png" alt="" class="position-absolute start-0"
+      style="height: 360px; bottom: -43%; z-index: 1;">
+  </section>
+  <!-- End Opening -->
+
+  <!-- Popular Product -->
+  <section style="height: 90vh;">
+    <div class="bg-body-tertiary" style="height: 35vh;">
+      <div class="container" style="z-index: 2; position: relative;">
+        <h2 class="fw-bold">Popular <span class="border-bottom border-warning border-5">Now</span></h2>
+        <div class="d-flex justify-content-center">
+          <div class="position-absolute d-flex mt-md-3">
+            <!-- Card 1 -->
+            <div class="card bg-white pb-0 p-3 border-0 shadow mx-3">
+              <div>
+                <p class="btn btn-sm btn-light position-absolute px-2 rounded-pill shadow fw-bold mt-1 ms-1"
+                  style="font-size: 12px; padding: 6px;"><span class="d-flex gap-1">
+                    4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px; font-size: 12px;"></i></p>
+                </span>
+                <img src="assets/Images/product-1.png" alt="" height="180px" class="card-img">
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between fw-bold">
+                  <p>Vanilla Latte</p>
+                  <p>21K</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center align-middle">
+                  <div>
+                    <p class="btn btn-sm btn-outline-warning">Hot</p>
+                    <p class="btn btn-sm btn-outline-secondary ms-2">Cold</p>
+                  </div>
+                  <div>
+                    <i class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                      style="width: 25px; height: 25px; margin-bottom: 15px;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="card bg-white pb-0 p-3 border-0 shadow mx-3">
+              <div>
+                <p class="btn btn-sm btn-light position-absolute px-2 rounded-pill shadow fw-bold mt-1 ms-1"
+                  style="font-size: 12px; padding: 6px;"><span class="d-flex gap-1">
+                    4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px; font-size: 12px;"></i></p>
+                </span>
+                <img src="assets/Images/product-2.png" alt="" height="180px" class="card-img">
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between fw-bold">
+                  <p>Expresso</p>
+                  <p>12K</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center align-middle">
+                  <div>
+                    <p class="btn btn-sm btn-outline-warning">Hot</p>
+                    <p class="btn btn-sm btn-outline-secondary ms-2">Cold</p>
+                  </div>
+                  <div>
+                    <i class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                      style="width: 25px; height: 25px; margin-bottom: 15px;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div class="card bg-white pb-0 p-3 border-0 shadow mx-3">
+              <div>
+                <p class="btn btn-sm btn-light position-absolute px-2 rounded-pill shadow fw-bold mt-1 ms-1"
+                  style="font-size: 12px; padding: 6px;"><span class="d-flex gap-1">
+                    4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px; font-size: 12px;"></i></p>
+                </span>
+                <img src="assets/Images/product-3.png" alt="" height="180px" class="card-img">
+              </div>
+              <div class="card-body">
+                <div class="d-flex justify-content-between fw-bold">
+                  <p>Hazelnut Latte</p>
+                  <p>23K</p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center align-middle">
+                  <div>
+                    <p class="btn btn-sm btn-outline-warning">Hot</p>
+                    <p class="btn btn-sm btn-outline-secondary ms-2">Cold</p>
+                  </div>
+                  <div>
+                    <i class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                      style="width: 25px; height: 25px; margin-bottom: 15px;"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rounded-5" style="background-color: #F8D8A9; height: 50vh; margin-top: 15vh;">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Popular Product -->
+
+  <!-- Delivery Service -->
+  <section id="delivery">
+    <div class="container">
+      <h2 class="fw-bold">How to use delivery <span class="border-bottom border-warning border-5">service</span></h2>
+      <div class="d-flex justify-content-around my-5">
+        <div class="text-center">
+          <img src="assets/Images/service-1.png" height="150px">
+          <h5 class="fw-bold mt-md-3 mb-2 text-success">Choose your coffee</h5>
+          <p class="fw-medium">there are 20+ coffees for you</p>
+        </div>
+        <div class="text-center">
+          <img src="assets/Images/service-2.png" height="150px">
+          <h5 class="fw-bold mt-md-3 mb-2 text-success">We delivery it to you</h5>
+          <p class="fw-medium">Choose delivery service</p>
+        </div>
+        <div class="text-center">
+          <img src="assets/Images/service-3.png" height="150px">
+          <h5 class="fw-bold mt-md-3 mb-2 text-success">Enjoy your coffee</h5>
+          <p class="fw-medium">Boost your activity with a coffee</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Delivery Service -->
+
+  <!-- About Us -->
+  <section id="about" class="bg-body-tertiary"
+    style="background-image: url(assets/Images/bg-aboutus.png); background-size: cover; background-repeat: round; margin-top: 100px;">
+    <div class="container-fluid" style="background-color: rgba(255, 255, 255, 0.8); padding: 30px">
+      <div class="container" style="padding-bottom: 20px;">
+        <div class="row">
+          <div class="d-flex gap-lg-5 mx-auto align-items-center col-9">
+            <div class="shadow my-5" style="border: 12px solid #fff; border-radius: 12px;">
+              <img src="assets/Images/highlight-product.png" alt="" height="380px">
+            </div>
+            <div class="col-10">
+              <div style="margin-top: 25px;">
+                <h3 class="fw-bold">About <span class="border-bottom border-warning border-5">Us</span></h3>
+                <h4 class="fw-bold w-75 mt-4">We provide quality coffee, <br> and ready to deliver</h4>
+                <p class="mt-2" style="width: 50%;">We are a company that makes and distributes delicious drink.
+                  our main product is made with a secret recipe and
+                  available in stores worldwide
+                </p>
+                <button class="btn rounded-pill text-warning fw-bold" style="background-color: #2e3b1d;">Get your
+                  coffee</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About Us -->
+
+  <!-- Special -->
+  <section id="special">
+    <div class="container" style="margin-top: 100px;">
+      <h3 class="fw-bold">Special For <span class="border-bottom border-warning border-5">You</span></h3>
+      <div class="d-flex justify-content-center">
+        <div class="d-flex flex-wrap mt-md-3 justify-content-center gap-5">
+          <div class="row justify-content-center">
+            <div class="col-md-4" style="width: 380px;">
+              <!-- Card 1 -->
+              <div class="card bg-white pb-0 p-3 border-0 shadow mx-3">
+                <div>
+                  <p class="btn btn-sm btn-light position-absolute px-2 rounded-pill shadow fw-bold mt-1 ms-1"
+                    style="font-size: 12px; padding: 6px;"><span class="d-flex gap-1">
+                      4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px; font-size: 12px;"></i></p>
+                  </span>
+                  <img src="assets/Images/product-4.png" alt="" height="150px" width="180px" class="card-img">
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between fw-bold">
+                    <p>Sandwich</p>
+                    <p>12K</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center align-middle">
+                    <div>
+                      <p class="w-75">Bread with meat and vegetables</p>
+                    </div>
+                    <div>
+                      <i class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                        style="width: 25px; height: 25px; margin-bottom: 15px;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" style="width: 380px;">
+              <!-- Card 2 -->
+              <div class="card bg-white pb-0 p-3 border-0 shadow mx-3">
+                <div>
+                  <p class="btn btn-sm btn-light position-absolute px-2 rounded-pill shadow fw-bold mt-1 ms-1"
+                    style="font-size: 12px; padding: 6px;"><span class="d-flex gap-1">
+                      4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px; font-size: 12px;"></i></p>
+                  </span>
+                  <img src="assets/Images/product-5.png" alt="" height="150px" width="180px" class="card-img">
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between fw-bold">
+                    <p>Hot Milk</p>
+                    <p>12K</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center align-middle">
+                    <div>
+                      <p class="w-75">
+                        Hot Milk with less sugar
+                      </p>
+                    </div>
+                    <div>
+                      <i class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                        style="width: 25px; height: 25px; margin-bottom: 15px;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" style="width: 380px;">
+              <!-- Card 3 -->
+              <div class="card bg-white pb-0 p-3 border-0 shadow mx-3">
+                <div>
+                  <p class="btn btn-sm btn-light position-absolute px-2 rounded-pill shadow fw-bold mt-1 ms-1"
+                    style="font-size: 12px; padding: 6px;"><span class="d-flex gap-1">
+                      4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px; font-size: 12px;"></i></p>
+                  </span>
+                  <img src="assets/Images/product-6.png" alt="" height="150px" width="180px" class="card-img">
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between fw-bold">
+                    <p>Coffee Ice Cream</p>
+                    <p>12K</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center align-middle">
+                    <div>
+                      <p class="w-75">
+                        Coffee with ice cream vanilla
+                      </p>
+                    </div>
+                    <div>
+                      <i class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                        style="width: 25px; height: 25px; margin-bottom: 15px;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-md-4" style="width: 380px;">
+              <!-- Card 4 -->
+              <div class="card bg-white pb-0 p-3 border-0 shadow mx-3">
+                <div>
+                  <p class="btn btn-sm btn-light position-absolute px-2 rounded-pill shadow fw-bold mt-1 ms-1"
+                    style="font-size: 12px; padding: 6px;"><span class="d-flex gap-1">
+                      4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px; font-size: 12px;"></i></p>
+                  </span>
+                  <img src="assets/Images/product-7.png" alt="" height="150px" width="180px" class="card-img">
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between fw-bold">
+                    <p>Cappucino</p>
+                    <p>12K</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center align-middle">
+                    <div>
+                      <p class="w-75">Hot Cappucino</p>
+                    </div>
+                    <div>
+                      <i class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                        style="width: 25px; height: 25px; margin-bottom: 15px;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" style="width: 380px;">
+              <!-- Card 5 -->
+              <div class="card bg-white pb-0 p-3 border-0 shadow mx-3">
+                <div>
+                  <p class="btn btn-sm btn-light position-absolute px-2 rounded-pill shadow fw-bold mt-1 ms-1"
+                    style="font-size: 12px; padding: 6px;"><span class="d-flex gap-1">
+                      4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px; font-size: 12px;"></i></p>
+                  </span>
+                  <img src="assets/Images/product-8.png" alt="" height="150px" width="180px" class="card-img">
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between fw-bold">
+                    <p>Moccacinno</p>
+                    <p>12K</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center align-middle">
+                    <div>
+                      <p class="w-100">
+                        Hot <br>Moccacinno
+                      </p>
+                    </div>
+                    <div>
+                      <i class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                        style="width: 25px; height: 25px; margin-bottom: 15px;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4" style="width: 380px;">
+              <!-- Card 6 -->
+              <div class="card bg-white pb-0 p-3 border-0 shadow mx-3">
+                <div>
+                  <p class="btn btn-sm btn-light position-absolute px-2 rounded-pill shadow fw-bold mt-1 ms-1"
+                    style="font-size: 12px; padding: 6px;"><span class="d-flex gap-1">
+                      4.8 <i class="fa-solid fa-star text-warning" style="margin-top: 2px; font-size: 12px;"></i></p>
+                  </span>
+                  <img src="assets/Images/product-9.png" alt="" height="150px" width="180px" class="card-img">
+                </div>
+                <div class="card-body">
+                  <div class="d-flex justify-content-between fw-bold">
+                    <p>Waffle Ice Cream</p>
+                    <p>12K</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center align-middle">
+                    <div>
+                      <p class="w-75">
+                        Waffle with ice cream
+                      </p>
+                    </div>
+                    <div>
+                      <i class="ai-cart fs-6 bg-warning text-dark rounded-circle d-inline-flex justify-content-center align-items-center text-white"
+                        style="width: 25px; height: 25px; margin-bottom: 15px;"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Special -->
+
+  <!-- Testimonial -->
+  <section style="margin-top: 100px;">
+    <div style="width: 60%; background-color: #F8D8A9; border-radius: 0 24px 24px 0;">
+      <div
+        style="background-image: url(assets/Images/bg-aboutus.png); background-size: cover; background-repeat: round;">
+        <div style="background-color: rgba(255, 255, 255, 0.8); padding: 200px 60px;">
+          <h2 class="fw-bold ms-5">What they say about us</h2>
+          <h5 class="w-50 fw-light ms-5">We always provide the best service and always maintain the quality of coffee
+          </h5>
+        </div>
+      </div>
+      <div class="d-flex position-absolute" style="margin-top: -400px; margin-left: 500px; gap: 60px;">
+        <!-- Testimonial 1 -->
+        <div class="position-relative flex-grow-1 ms-5">
+          <img src="assets/Images/testimonial-1.png" height="280px" class="shadow">
+          <div class="position-absolute bottom-0 right-0 ms-5 p-0 mb-4">
+            <div class="card border-0 p-sm-2 shadow" style="background-color: #FFE4BB; width: 200px;">
+              <h6>Naura</h6>
+              <p style="font-size: 11px;">I really love the cappuccino, the coffee was very smooth</p>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="position-relative flex-grow-1">
+          <img src="assets/Images/testimonial-2.png" height="280px" class="shadow">
+          <div class="position-absolute bottom-0 right-0 ms-5 p-0 mb-4">
+            <div class="card border-0 p-sm-2 shadow" style="background-color: #FFE4BB; width: 200px;">
+              <h6>John</h6>
+              <p style="font-size: 11px;">This coffee shop very convenient</p>
+            </div>
+          </div>
+        </div>
+        <!-- Testimonial 3 -->
+        <div class="position-relative flex-grow-1">
+          <img src="assets/Images/testimonial-3.png" height="280px" class="shadow">
+          <div class="position-absolute bottom-0 right-0 ms-5 p-0 mb-4">
+            <div class="card border-0 p-sm-2 shadow" style="background-color: #FFE4BB; width: 200px;">
+              <h6>Azura</h6>
+              <p style="font-size: 11px;">The coffee menu here is very much</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Testimonial -->
+
+  <!-- Footer -->
+  <footer style="margin: 100px 0;">
+    <div class="container border border-0 rounded-4 shadow" style="padding: 100px; background-image: url(assets/Images/bg-newsletter.png); background-size: cover; background-position: center; background-repeat: no-repeat;">
+      <h4 class="text-center text-white">Subcribe to get 50% discount price</h4>
+      <form class="d-flex align-items-center position-relative w-50 mx-auto mt-3">
+        <input type="email" class="form-control me-2 rounded-pill ps-4 py-3" placeholder="Email Addres">
+        <button type="submit" class="btn rounded-pill btn-success position-absolute end-0 me-4 py-2 px-4"
+          style="font-size: 14px;">Order Now</button>
+      </form>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
